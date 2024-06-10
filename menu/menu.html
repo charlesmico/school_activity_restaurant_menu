@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <script src="../assets/lib/scrollreveal.min.js"></script>
+    <title>Resto. - Developed by Charles.</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <ul class="navbar-nav">
+            <li class="logo">
+                <a href="#" class="nav-link">
+                    <span class="link-text logo-text">Resto.</span>
+                    <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="angle-double-right"
+                        role="img loading=" lazy"" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                        class="svg-inline--fa fa-angle-double-right fa-w-14 fa-5x">
+                        <g class="fa-group">
+                            <path fill="currentColor"
+                                d="M224 273L88.37 409a23.78 23.78 0 0 1-33.8 0L32 386.36a23.94 23.94 0 0 1 0-33.89l96.13-96.37L32 159.73a23.94 23.94 0 0 1 0-33.89l22.44-22.79a23.78 23.78 0 0 1 33.8 0L223.88 239a23.94 23.94 0 0 1 .1 34z"
+                                class="fa-secondary">
+                            </path>
+                            <path fill="currentColor"
+                                d="M415.89 273L280.34 409a23.77 23.77 0 0 1-33.79 0L224 386.26a23.94 23.94 0 0 1 0-33.89L320.11 256l-96-96.47a23.94 23.94 0 0 1 0-33.89l22.52-22.59a23.77 23.77 0 0 1 33.79 0L416 239a24 24 0 0 1-.11 34z"
+                                class="fa-primary">
+                            </path>
+                        </g>
+                    </svg>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="../index.html" class="nav-link">
+                    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="currentColor" class="fa-primary" fill-rule="evenodd" clip-rule="evenodd"
+                            d="M4.18753 11.3788C4.03002 11.759 4 11.9533 4 12V20.0018C4 20.5529 4.44652 21 5 21H8V15C8 13.8954 8.89543 13 10 13H14C15.1046 13 16 13.8954 16 15V21H19C19.5535 21 20 20.5529 20 20.0018V12C20 11.9533 19.97 11.759 19.8125 11.3788C19.6662 11.0256 19.4443 10.5926 19.1547 10.1025C18.5764 9.1238 17.765 7.97999 16.8568 6.89018C15.9465 5.79788 14.9639 4.78969 14.0502 4.06454C13.5935 3.70204 13.1736 3.42608 12.8055 3.2444C12.429 3.05862 12.1641 3 12 3C11.8359 3 11.571 3.05862 11.1945 3.2444C10.8264 3.42608 10.4065 3.70204 9.94978 4.06454C9.03609 4.78969 8.05348 5.79788 7.14322 6.89018C6.23505 7.97999 5.42361 9.1238 4.8453 10.1025C4.55568 10.5926 4.33385 11.0256 4.18753 11.3788ZM10.3094 1.45091C10.8353 1.19138 11.4141 1 12 1C12.5859 1 13.1647 1.19138 13.6906 1.45091C14.2248 1.71454 14.7659 2.07921 15.2935 2.49796C16.3486 3.33531 17.4285 4.45212 18.3932 5.60982C19.3601 6.77001 20.2361 8.0012 20.8766 9.08502C21.1963 9.62614 21.4667 10.1462 21.6602 10.6134C21.8425 11.0535 22 11.5467 22 12V20.0018C22 21.6599 20.6557 23 19 23H16C14.8954 23 14 22.1046 14 21V15H10V21C10 22.1046 9.10457 23 8 23H5C3.34434 23 2 21.6599 2 20.0018V12C2 11.5467 2.15748 11.0535 2.33982 10.6134C2.53334 10.1462 2.80369 9.62614 3.12345 9.08502C3.76389 8.0012 4.63995 6.77001 5.60678 5.60982C6.57152 4.45212 7.65141 3.33531 8.70647 2.49796C9.2341 2.07921 9.77521 1.71454 10.3094 1.45091Z" />
+                    </svg>
+                    <span class="link-text">Home</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#maindish" class="nav-link">
+                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 490.7 490.7" xml:space="preserve">
+                        <g>
+                            <g>
+                                <path fill="currentColor" class="fa-primary"
+                                    d="M46.8,376.1h395.9c11.5,0,20.8-9.4,20.8-20.8c0-129.5-86.9-235.9-197.9-247.9v-22h17.7c11.5,0,20.8-9.4,20.8-20.8c0-11.4-9.4-20.8-20.8-20.8h-77.1c-11.5,0-20.8,9.4-20.8,20.8c0,11.4,9.4,20.8,20.8,20.8h17.7v22C112.9,119.4,26,225.8,26,355.3C26,366.8,35.4,376.1,46.8,376.1z M244.8,148c92.7,0,168.8,82.3,177.1,187.5H67.7C77,230.3,152.1,148,244.8,148z" />
+                                <path fill="currentColor" class="fa-primary"
+                                    d="M469.8,405.3h-449C9.3,405.3,0,414.7,0,426.1s9.4,20.8,20.8,20.8h448c11.5,0,21.9-9.4,21.9-20.8S481.3,405.3,469.8,405.3z" />
+                            </g>
+                        </g>
+                    </svg>
+                    <span class="link-text">Main Dish</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#vegetables" class="nav-link">
+                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 297 297" xml:space="preserve">
+                        <g>
+                            <path fill="currentColor" class="fa-primary"
+                                d="M259.692,237.233c4.192-18.809,14.832-75.645,14.832-75.645c23.245-18.401,29.323-50.257,14.172-69.98
+                                    c-6.523-8.501-16.413-14.006-27.849-15.5c-14.091-1.839-29.291,2.447-41.93,11.756c-8.219-30.976-36.447-53.87-69.923-53.87
+                                    c-33.221,0-61.266,22.553-69.721,53.171C66.506,77.504,51.01,73.032,36.669,74.906c-11.438,1.491-21.331,6.996-27.857,15.5
+                                    c-7.936,10.342-10.733,24.957-7.483,39.096c2.948,12.825,10.625,23.104,21.989,32.085c0,0,10.677,56.835,14.874,75.645
+                                    c3.222,14.437,18.026,25.775,32.816,25.775h155.867C241.665,263.008,256.474,251.669,259.692,237.233z M148.994,53.525
+                                    c28.434,0,51.679,22.638,52.764,50.872c-13.198-4.664-30.079-1.583-43.934,9.09c-2.692,2.075-5.121,4.301-7.297,6.633
+                                    c-4.25-3.363-9.575-7.391-12.406-8.814c-19.112-9.636-32.523-10.603-41.841-7.964C97.896,75.6,120.917,53.525,148.994,53.525z
+                                    M46.087,154.439c-17.789-8.91-23.808-20.979-25.724-29.312c-1.929-8.396-0.418-17.144,3.943-22.828
+                                    c4.287-5.586,10.463-7.446,14.889-8.023c9.418-1.234,19.857,1.946,28.639,8.715c6.386,4.919,11.165,11.155,13.822,18.033
+                                    c1.192,3.083,3.862,5.354,7.098,6.036c3.238,0.682,6.596-0.321,8.93-2.662c6.95-6.97,24.445,0.719,31.618,4.336
+                                    c1.45,0.78,6.258,4.424,10.769,8.033c-2.169,5.911-2.896,11.945-2.079,17.673h-23.156l-70.497-35.311
+                                    c-2.895-1.449-6.413-0.278-7.863,2.614c-1.449,2.894-0.279,6.415,2.614,7.863l49.578,24.833H46.087z M240.66,232.835
+                                    c-1.492,5.589-8.015,10.641-13.785,10.641H71.008c-5.77,0-12.292-5.052-13.785-10.641l-12.287-58.864h208.013L240.66,232.835z
+                                    M207.738,154.439l35.071-18.944c2.848-1.538,3.908-5.094,2.371-7.94c-1.538-2.849-5.096-3.907-7.941-2.371l-54.161,29.256h-24.977
+                                    c-2.934-7.239,1.707-17.822,11.644-25.481c10.431-8.035,23.924-9.546,30.078-3.364c2.334,2.341,5.694,3.348,8.928,2.665
+                                    c3.234-0.679,5.907-2.947,7.1-6.03c2.667-6.887,7.448-13.126,13.825-18.041c8.782-6.767,19.224-9.946,28.641-8.712
+                                    c4.425,0.578,10.597,2.439,14.885,8.026c8.752,11.393,3.438,30.24-11.849,42.014c-6.377,4.914-13.617,8.112-20.936,8.924H207.738z" />
+                            <path fill="currentColor" class="fa-primary"
+                                d="M148.994,86.259c3.236,0,5.859-2.623,5.859-5.859v-9.771c0-3.235-2.623-5.859-5.859-5.859
+                                    c-3.236,0-5.859,2.624-5.859,5.859V80.4C143.135,83.636,145.758,86.259,148.994,86.259z" />
+                            <path fill="currentColor" class="fa-primary" d="M168.556,93.617c0.922,0.53,1.928,0.783,2.92,0.783c2.026,0,3.998-1.053,5.083-2.936l4.877-8.466
+                                    c1.616-2.804,0.651-6.387-2.152-8.003c-2.805-1.614-6.386-0.652-8.003,2.153l-4.877,8.465
+                                    C164.788,88.418,165.752,92.002,168.556,93.617z" />
+                            <path fill="currentColor" class="fa-primary"
+                                d="M121.437,91.466c1.084,1.882,3.056,2.935,5.082,2.935c0.992,0,1.999-0.253,2.92-0.784c2.805-1.616,3.768-5.199,2.151-8.003
+                                    l-4.88-8.465c-1.615-2.805-5.199-3.768-8.002-2.151c-2.805,1.616-3.768,5.199-2.151,8.003L121.437,91.466z" />
+                        </g>
+                    </svg>
+                    <span class="link-text">Vegetables</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#deserts" class="nav-link">
+                    <svg fill="currentColor" class="fa-primary" viewBox="0 0 256 256" id="Flat"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M242,112a36.04061,36.04061,0,0,0-36-36H160.34277a37.90549,37.90549,0,0,0,3.958-11.44141c2.27637-13.124-1.9707-27.61963-12.624-43.084A121.00645,121.00645,0,0,0,136.165,3.20654a11.99887,11.99887,0,0,0-16.33008,0,121.00645,121.00645,0,0,0-15.51172,18.26807c-10.65332,15.46435-14.90039,29.96-12.624,43.084A37.90549,37.90549,0,0,0,95.65723,76H50a36.04061,36.04061,0,0,0-36,36v13.32812A47.24152,47.24152,0,0,0,28,158.728V208a20.02229,20.02229,0,0,0,20,20H208a20.02229,20.02229,0,0,0,20-20V158.728a47.24152,47.24152,0,0,0,14-33.39991ZM128.01953,29.80371C134.8877,38.4209,142.34961,50.68408,140.6543,60.457c-.94336,5.4375-5.19336,10.21631-12.6543,14.24414-7.4502-4.022-11.69824-8.791-12.64941-14.21728C113.64746,50.772,121.14258,38.45752,128.01953,29.80371ZM38,112a12.01343,12.01343,0,0,1,12-12H206a12.01343,12.01343,0,0,1,12,12v13.32812a23.10242,23.10242,0,0,1-6.915,16.37891,21.38734,21.38734,0,0,1-15.51855,6.28906A22.10631,22.10631,0,0,1,174,126a12.132,12.132,0,0,0-.062-1.22705,12.001,12.001,0,0,0-23.876,0A12.132,12.132,0,0,0,150,126a22,22,0,0,1-44,0,12.132,12.132,0,0,0-.062-1.22705,12.001,12.001,0,0,0-23.876,0A12.132,12.132,0,0,0,82,126a22.10631,22.10631,0,0,1-21.56641,21.99609A21.42358,21.42358,0,0,1,44.915,141.707,23.10242,23.10242,0,0,1,38,125.32812Zm14,92V171.28369a45.17571,45.17571,0,0,0,8.89258.70752A45.89477,45.89477,0,0,0,93.94775,156.894a45.93372,45.93372,0,0,0,68.1045,0,45.89477,45.89477,0,0,0,33.05517,15.09717c.29395.00586.58594.00879.87988.00879A45.295,45.295,0,0,0,204,171.27588V204Z" />
+                    </svg>
+                    <span class="link-text">Deserts</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#drinks" class="nav-link">
+                    <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="currentColor" class="fa-primary" fill-rule="evenodd" clip-rule="evenodd"
+                            d="M13.411 4H6.58933C6.48813 4 6.38701 4.00615 6.28655 4.0184C4.916 4.18563 3.94052 5.43224 4.10774 6.80278L5.32785 16.8028C5.48089 18.0571 6.54584 19 7.80945 19H12.1937C13.4576 19 14.5227 18.0567 14.6754 16.8021L15.8927 6.80209C15.9049 6.70186 15.911 6.60097 15.911 6.5C15.911 5.11929 14.7917 4 13.411 4ZM6.52878 6.00368C6.54887 6.00123 6.56909 6 6.58933 6H13.411C13.6871 6 13.911 6.22386 13.911 6.5C13.911 6.52019 13.9097 6.54037 13.9073 6.56042L12.69 16.5604C12.6595 16.8113 12.4465 17 12.1937 17H7.80945C7.55673 17 7.34374 16.8114 7.31313 16.5606L6.09302 6.56056C6.05957 6.28645 6.25467 6.03713 6.52878 6.00368Z" />
+                        <path fill="currentColor" class="fa-primary"
+                            d="M9.21684 14.7206C9.09502 15.1165 8.67533 15.3386 8.27944 15.2168C7.88354 15.095 7.66135 14.6753 7.78317 14.2794L11.7832 1.27944C11.905 0.88354 12.3247 0.661352 12.7206 0.783167C13.1165 0.904981 13.3386 1.32467 13.2168 1.72057L9.21684 14.7206Z" />
+                        <path fill="currentColor" class="fa-primary"
+                            d="M5.5 10.25C5.08579 10.25 4.75 9.91421 4.75 9.5C4.75 9.08579 5.08579 8.75 5.5 8.75H14.5C14.9142 8.75 15.25 9.08579 15.25 9.5C15.25 9.91421 14.9142 10.25 14.5 10.25H5.5Z" />
+                        <path fill="currentColor" class="fa-primary"
+                            d="M12.3181 2.22761C11.9163 2.12715 11.6719 1.71995 11.7724 1.3181C11.8729 0.916254 12.2801 0.671934 12.6819 0.772395L16.6819 1.7724C17.0838 1.87286 17.3281 2.28006 17.2276 2.6819C17.1272 3.08375 16.72 3.32807 16.3181 3.22761L12.3181 2.22761Z" />
+                    </svg>
+                    <span class="link-text">Drinks</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#snacks" class="nav-link">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="currentColor" class="fa-primary" fill-rule="evenodd" clip-rule="evenodd"
+                            d="M5 10C5 7.23858 7.23858 5 10 5H14C16.7614 5 19 7.23858 19 10V10.8382C17.9457 9.59948 16.026 9.60669 14.9818 10.8598C14.7311 11.1607 14.2689 11.1607 14.0182 10.8598C12.9679 9.59944 11.0321 9.59944 9.98178 10.8598C9.73105 11.1607 9.26895 11.1607 9.01822 10.8598C7.97395 9.60669 6.05435 9.59948 5 10.8382V10ZM21 10V10.5C21.2559 10.5 21.5118 10.5976 21.7071 10.7929C22.0976 11.1834 22.0976 11.8166 21.7071 12.2071L21.5246 12.3896C21.1544 12.7599 20.7056 12.999 20.234 13.1095C21.2565 13.4231 22 14.3747 22 15.5C22 16.3607 21.565 17.1199 20.9029 17.5696C20.9651 17.6999 21 17.8459 21 18V18.5C21 20.433 19.433 22 17.5 22H6.5C4.567 22 3 20.433 3 18.5V18C3 17.8459 3.03486 17.6999 3.09712 17.5696C2.43498 17.1199 2 16.3607 2 15.5C2 14.3747 2.74348 13.4231 3.76602 13.1095C3.29437 12.999 2.84564 12.7599 2.47537 12.3896L2.29289 12.2071C1.90237 11.8166 1.90237 11.1834 2.29289 10.7929C2.48816 10.5976 2.74408 10.5 3 10.5V10C3 6.13401 6.13401 3 10 3H14C17.866 3 21 6.13401 21 10ZM5.35966 13H8.83259C8.32453 12.8675 7.84903 12.5809 7.48178 12.1402C7.23105 11.8393 6.76895 11.8393 6.51822 12.1402L6.46105 12.2088C6.15489 12.5762 5.77366 12.8406 5.35966 13ZM10.1674 13H13.8326C13.3245 12.8675 12.849 12.5809 12.4818 12.1402C12.2311 11.8393 11.7689 11.8393 11.5182 12.1402C11.151 12.5809 10.6755 12.8675 10.1674 13ZM15.1674 13H18.6403C18.2263 12.8406 17.8451 12.5762 17.5389 12.2088L17.4818 12.1402C17.2311 11.8393 16.7689 11.8393 16.5182 12.1402C16.151 12.5809 15.6755 12.8675 15.1674 13ZM5 18V18.5C5 19.3284 5.67157 20 6.5 20H17.5C18.3284 20 19 19.3284 19 18.5V18H5ZM4 15.5C4 15.2239 4.22386 15 4.5 15H19.5C19.7761 15 20 15.2239 20 15.5C20 15.7761 19.7761 16 19.5 16H4.5C4.22386 16 4 15.7761 4 15.5Z" />
+                    </svg>
+                    <span class="link-text">Snacks</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#addons" class="nav-link">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="currentColor" class="fa-primary"
+                            d="M14,1a1,1,0,0,0-1,1V7a4,4,0,0,0,3,3.858v2.354A2.5,2.5,0,0,0,14.5,15.5v5a2.5,2.5,0,0,0,5,0v-5A2.5,2.5,0,0,0,18,13.212V10.858A4,4,0,0,0,21,7V2a1,1,0,0,0-2,0V6H18V2a1,1,0,0,0-2,0V6H15V2A1,1,0,0,0,14,1Zm3.5,19.5a.5.5,0,0,1-1,0v-5a.5.5,0,0,1,1,0ZM18.731,8a2,2,0,0,1-3.462,0ZM11,6c0-2.757-1.794-5-4-5S3,3.243,3,6a4.92,4.92,0,0,0,3,4.822v2.39A2.5,2.5,0,0,0,4.5,15.5v5a2.5,2.5,0,0,0,5,0v-5A2.5,2.5,0,0,0,8,13.212v-2.39A4.92,4.92,0,0,0,11,6ZM5,6c0-1.626.916-3,2-3S9,4.374,9,6,8.084,9,7,9,5,7.626,5,6ZM7.5,20.5a.5.5,0,0,1-1,0v-5a.5.5,0,0,1,1,0Z" />
+                    </svg>
+                    <span class="link-text">Add-ons</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="cart-container">
+        <div class="cart-content">
+            <div class="cart">
+                <a href="cart.html">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="svg-style"
+                            d="M6.29977 5H21L19 12H7.37671M20 16H8L6 3H3M9 20C9 20.5523 8.55228 21 8 21C7.44772 21 7 20.5523 7 20C7 19.4477 7.44772 19 8 19C8.55228 19 9 19.4477 9 20ZM20 20C20 20.5523 19.5523 21 19 21C18.4477 21 18 20.5523 18 20C18 19.4477 18.4477 19 19 19C19.5523 19 20 19.4477 20 20Z"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <span>0</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <main>
+        <section class="section-main" id="maindish">
+            <h1>Main Dish</h1>
+            <div class="row">
+                <div class="content-area">
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/mainA.jpg" alt="">
+                        <div class="info">
+                            <h2>Black Pepper Chicken</h2>
+                            <p>
+                                Best Deal - $10
+                            </p>
+                            <button class="add-cart cart1">Order</button>
+                        </div>
+                    </div>
+
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/mainB.jpg" alt="">
+                        <div class="info">
+                            <h2>Chicken and Orzo Bake</h2>
+                            <p>
+                                Best Deal - $15
+                            </p>
+                            <button class="add-cart cart2">Order</button>
+                        </div>
+                    </div>
+
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/mainC.jpg" alt="">
+                        <div class="info">
+                            <h2>Chicken Tortellini</h2>
+                            <p>
+                                Best Deal - $20
+                            </p>
+                            <button class="add-cart cart3">Order</button>
+                        </div>
+                    </div>
+
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/mainD.jpg" alt="">
+                        <div class="info">
+                            <h2>Pan Seared Cod</h2>
+                            <p>
+                                Best Deal - $25
+                            </p>
+                            <button class="add-cart cart4">Order</button>
+                        </div>
+                    </div>
+
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/mainE.jpg" alt="">
+                        <div class="info">
+                            <h2>Sausage Manicotti Bake</h2>
+                            <p>
+                                Best Deal - $30
+                            </p>
+                            <button class="add-cart cart5">Order</button>
+                        </div>
+                    </div>
+
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/mainF.jpg" alt="">
+                        <div class="info">
+                            <h2>Cabbage Fritters</h2>
+                            <p>
+                                Best Deal - $35
+                            </p>
+                            <button class="add-cart cart6">Order</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="section-vegetables" id="vegetables">
+            <h1>Vegetables</h1>
+            <div class="row">
+                <div class="content-area">
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/vegetableA.jpg" alt="">
+                        <div class="info">
+                            <h2>Creamy Polenta</h2>
+                            <p>
+                                Best Deal - $40
+                            </p>
+                            <button class="add-cart cart7">Order</button>
+                        </div>
+                    </div>
+
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/vegetableB.jpg" alt="">
+                        <div class="info">
+                            <h2>Roasted Broccoli</h2>
+                            <p>
+                                Best Deal - $45
+                            </p>
+                            <button class="add-cart cart8">Order</button>
+                        </div>
+                    </div>
+
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/vegetableC.jpg" alt="">
+                        <div class="info">
+                            <h2>Socca with Zucchini</h2>
+                            <p>
+                                Best Deal - $50
+                            </p>
+                            <button class="add-cart cart9">Order</button>
+                        </div>
+                    </div>
+
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/vegetableD.jpg" alt="">
+                        <div class="info">
+                            <h2>Rustic Pepper Stew</h2>
+                            <p>
+                                Best Deal - $55
+                            </p>
+                            <button class="add-cart cart10">Order</button>
+                        </div>
+                    </div>
+
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/vegetableE.jpg" alt="">
+                        <div class="info">
+                            <h2>Vegetable Tortilla</h2>
+                            <p>
+                                Best Deal - $60
+                            </p>
+                            <button class="add-cart cart11">Order</button>
+                        </div>
+                    </div>
+
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/vegetableF.jpg" alt="">
+                        <div class="info">
+                            <h2>Baked Squash</h2>
+                            <p>
+                                Best Deal - $65
+                            </p>
+                            <button class="add-cart cart12">Order</button>
+                        </div>
+                    </div>
+
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/vegetableG.jpg" alt="">
+                        <div class="info">
+                            <h2>Ratatouille</h2>
+                            <p>
+                                Best Deal - $70
+                            </p>
+                            <button class="add-cart cart13">Order</button>
+                        </div>
+                    </div>
+
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/vegetableH.jpg" alt="">
+                        <div class="info">
+                            <h2>Kale-Artichoke</h2>
+                            <p>
+                                Best Deal - $75
+                            </p>
+                            <button class="add-cart cart14">Order</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="section-deserts" id="deserts">
+            <h1>Deserts</h1>
+            <div class="row">
+                <div class="content-area">
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/desertA.jpg" alt="">
+                        <div class="info">
+                            <h2>Strawberry Jello Pie</h2>
+                            <p>
+                                Best Deal - $80
+                            </p>
+                            <button class="add-cart cart15">Order</button>
+                        </div>
+                    </div>
+
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/desertB.jpg" alt="">
+                        <div class="info">
+                            <h2>French Silk Pie</h2>
+                            <p>
+                                Best Deal - $85
+                            </p>
+                            <button class="add-cart cart16">Order</button>
+                        </div>
+                    </div>
+
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/desertC.jpg" alt="">
+                        <div class="info">
+                            <h2>Pumpkin Pie</h2>
+                            <p>
+                                Best Deal - $90
+                            </p>
+                            <button class="add-cart cart17">Order</button>
+                        </div>
+                    </div>
+
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/desertD.jpg" alt="">
+                        <div class="info">
+                            <h2>Banana Pudding</h2>
+                            <p>
+                                Best Deal - $95
+                            </p>
+                            <button class="add-cart cart18">Order</button>
+                        </div>
+                    </div>
+
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/desertE.jpg" alt="">
+                        <div class="info">
+                            <h2>Sticky Toffee Pudding</h2>
+                            <p>
+                                Best Deal - $100
+                            </p>
+                            <button class="add-cart cart19">Order</button>
+                        </div>
+                    </div>
+
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/desertF.jpg" alt="">
+                        <div class="info">
+                            <h2>Black Magic Cake</h2>
+                            <p>
+                                Best Deal - $105
+                            </p>
+                            <button class="add-cart cart20">Order</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="section-drinks" id="drinks">
+            <h1>Drinks</h1>
+            <div class="row">
+                <div class="content-area">
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/drinkA.jpg" alt="">
+                        <div class="info">
+                            <h2>Cantaloupe Tea</h2>
+                            <p>
+                                Best Deal - $110
+                            </p>
+                            <button class="add-cart cart21">Order</button>
+                        </div>
+                    </div>
+
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/drinkB.jpg" alt="">
+                        <div class="info">
+                            <h2>Cinnamon Tea</h2>
+                            <p>
+                                Best Deal - $115
+                            </p>
+                            <button class="add-cart cart22">Order</button>
+                        </div>
+                    </div>
+
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/drinkC.jpg" alt="">
+                        <div class="info">
+                            <h2>Banana Milk</h2>
+                            <p>
+                                Best Deal - $120
+                            </p>
+                            <button class="add-cart cart23">Order</button>
+                        </div>
+                    </div>
+
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/drinkD.jpg" alt="">
+                        <div class="info">
+                            <h2>Peanut Butter Banana Smoothie</h2>
+                            <p>
+                                Best Deal - $125
+                            </p>
+                            <button class="add-cart cart24">Order</button>
+                        </div>
+                    </div>
+
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/drinkE.jpg" alt="">
+                        <div class="info">
+                            <h2>Honey Oatmilk Latte</h2>
+                            <p>
+                                Best Deal - $130
+                            </p>
+                            <button class="add-cart cart25">Order</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="section-snacks" id="snacks">
+            <h1>Snacks</h1>
+            <div class="row">
+                <div class="content-area">
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/snackA.jpg" alt="">
+                        <div class="info">
+                            <h2>Pork Sausage Rolls</h2>
+                            <p>
+                                Best Deal - $135
+                            </p>
+                            <button class="add-cart cart26">Order</button>
+                        </div>
+                    </div>
+
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/snackB.jpg" alt="">
+                        <div class="info">
+                            <h2>Spicy Corn Fritters</h2>
+                            <p>
+                                Best Deal - $140
+                            </p>
+                            <button class="add-cart cart27">Order</button>
+                        </div>
+                    </div>
+
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/snackC.jpg" alt="">
+                        <div class="info">
+                            <h2>Sausage Rolls with Mash</h2>
+                            <p>
+                                Best Deal - $145
+                            </p>
+                            <button class="add-cart cart28">Order</button>
+                        </div>
+                    </div>
+
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/snackD.jpg" alt="">
+                        <div class="info">
+                            <h2>Cheese Toastie</h2>
+                            <p>
+                                Best Deal - $150
+                            </p>
+                            <button class="add-cart cart29">Order</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="section-addons" id="addons">
+            <h1>Add-ons</h1>
+            <div class="row">
+                <div class="content-area">
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/addonsA.jpg" alt="">
+                        <div class="info">
+                            <h2>Loaded Deviled Eggs</h2>
+                            <p>
+                                Best Deal - $155
+                            </p>
+                            <button class="add-cart cart30">Order</button>
+                        </div>
+                    </div>
+
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/addonsB.jpg" alt="">
+                        <div class="info">
+                            <h2>Sausage Balls</h2>
+                            <p>
+                                Best Deal - $160
+                            </p>
+                            <button class="add-cart cart31">Order</button>
+                        </div>
+                    </div>
+
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/addonsC.jpg" alt="">
+                        <div class="info">
+                            <h2>Spicy Cheese Twists</h2>
+                            <p>
+                                Best Deal - $165
+                            </p>
+                            <button class="add-cart cart32">Order</button>
+                        </div>
+                    </div>
+
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/addonsD.jpg" alt="">
+                        <div class="info">
+                            <h2>Roasted Bruschetta</h2>
+                            <p>
+                                Best Deal - $170
+                            </p>
+                            <button class="add-cart cart33">Order</button>
+                        </div>
+                    </div>
+
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/addonsE.jpg" alt="">
+                        <div class="info">
+                            <h2>Pizza Poppers</h2>
+                            <p>
+                                Best Deal - $175
+                            </p>
+                            <button class="add-cart cart34">Order</button>
+                        </div>
+                    </div>
+
+                    <div class="single-content">
+                        <img loading="lazy" src="../assets/images/addonsF.jpg" alt="">
+                        <div class="info">
+                            <h2>Smoky Pea Hummus</h2>
+                            <p>
+                                Best Deal - $180
+                            </p>
+                            <button class="add-cart cart35">Order</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div>
+                <h3>Made with <span class="heart-icon">&#9829</span> by <span class="name">Charles.</span></h3>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <script src="../main.js"></script>
+    <script src="menuCart.js"></script>
+</body>
+
+</html>
